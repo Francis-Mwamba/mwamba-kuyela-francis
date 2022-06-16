@@ -1,0 +1,165 @@
+<html>
+        <head>
+            <title>francis MUAMBA KUYELA</title>
+            <meta charset="utf-8"> 
+            <link rel="stylesheet" href="mystillP.CSS">
+            <link rel="stylesheet" href="icomoon/style.css">
+        </head>
+        <body>
+                    <DIv> 
+                        <nav>
+                        <label class="logo">Francis</label>
+                    
+                        <ul>
+                            <li><a class="active" href="#about">A propos</a></li>
+                            <li><a href="#parcours">Parcour</a></li>
+                            <li><a href="#Competances">Competances</a></li>
+                            <li><a href="#Galerie">Galerie</a></li> 
+                            <li><a href="#Contact">Contacts</a></li>    
+                        </ul>
+                        <label id="icon">
+                            <i class=" icon-bars"></i>
+                        </label>     
+                        </nav>
+                    </DIv>
+                    <div class="banner">
+                        <img class="arrieur-plas" src="images/computer-1185569__480.webp" alt="" srcset="">
+    
+                        <div class="sombre"> </div>
+    
+                        <h1 class="title-banner">bien venue sur notre site </h1>  
+                    </div>
+
+                    <div id="first-section">
+                            <section id="about">
+                                 <h1>A propos de moi</h1>
+                                 <div style="display:flex;">
+                                     <img class="photo-propos" src="photos/francis.jpg" alt="">
+                                     <p class="PARA">HI Guys! Je suis Francis , developpeur web  encore debutant dans ce metier encore presque 6 mois de decouvert de la programation web. Je suis étudiant en informatique
+                                        à l'université de lubumbashi, Niveau BAC 1, nous avons un club des developpeurs ici chez nous, precisement dans la faculté des sciences où nous
+                                        collaborons ensemble avec mes précedents dans ce metier et formation qui sont mes coachs entre autres: Van , Elvin , joslin , Marden ect ... en faite on est nombreux dans notre club y compris les debutants, 
+                                        les moyens et les plus avancés. dans cette club,il n'y a pas seulement les developpeurs web et designer mais aussi vous trouverez les developpeurs desktop et mobile, comme moi ici j'ai un peu de connaissance sur le developpement desktop et un peu de mobile 
+                                        dans un seul langage de programation.
+                                     </p>
+                                </div> 
+                             
+                                 
+                             </section>
+                         </div>  
+                         <div id="second-section">       
+                             <section id="parcours">
+                                 <h1>Mon parcour</h1>
+                                 <p>
+                                        En ce qui concerne mon parcour intellectuel, j'ai un diplôme d'Etat en commercial admnistratif en abregeant (CAD),aussi j'ai fait une année à <em> <strong> l'institut superieure  de la statistique </strong></em>  
+                                        en <em><strong> informatique de gestion,</strong></em> et cette année j'ai decidé de rejoindre ma grande famille des developpeurs à la faculté de science ici à <strong>UNILU.</strong> 
+                                 </p>
+                             </section>
+                         </div> 
+                         <div id="therd-section">  
+                             <section id="Competances">
+                                 <h1>Mes Competances</h1>
+                                 <p>
+                                     J'ai une base en programation procedurale et aussi orientée objet, où j'ai appris le VB.net , langage C, et pascal, ici c'etait tout simplement avoir l'idée de la programation, sauf que du C que 
+                                     j' ai beaucoup bausé pour acquerir une bonne base en programation, mais aujourd'hui la programmation que j'ai beaucoup exploitée par rapport aux autres de langage cités ci-haut, est la programation <strong>Java </strong> avec la quelle je peut faire le maping avec le web surtout <em><strong> HTML </strong></em> ET du <Em><strong>CSS</strong> </Em> . En fait , c'est  grâce à la programation langage Java que je maitrise 
+                                     la programation des applications desktop et un peu du mobile aussi , mais si vous cherchez de developpeurs desktop nous somme là , nous programons des applications de gestion par Exemple 
+                                     en mode graphique voir consol avec du java, et aussi on peut faire le maping ave <em><strong>html</strong></em> pour le web, comme je vous ai ecris sur ma premiere section; je suis au milieu des developpeurs et on colabore tres bien avec ,il y aura tjr toutes solutions dans vos problèmes. <br>
+                                    <p> En ce qui conserne la programation web nous travaillons tjr chaque jour car c'est notre devoir en tant que developpeurs, mais au moin j'ai la base en <em><strong> php </strong></em>et je connais la structure d'une page <em><strong> php</strong> </em>, je comprend  egalement son fonctionnement , mais attention ,je n'ai pas encore eu trop de notions sur celui-ci , mais quand-même nous travaillons encore là dedant pour bien maitriser le boulot.</p>
+
+                                 </p>
+                             </section>
+                         </div>
+                         <div id="fourth-section"> 
+                             <section id="Galerie">
+                                 <h1 class="section-images">Galerie</h1> 
+                                 <img class="GAL" src="photos/francis.jpg" alt="" width="150">
+                                 <img class="GAL"src="photos/IMG_1985.JPG" alt="" width="150">
+                                 <img class="GAL"src="photos/IMG_1987.JPG" alt="" width="150">
+                                 <img class="GAL"src="photos/IMG_1989.JPG" alt="" width="150">
+                                 <img class="GAL"src="photos/confir.jpg" alt="" width="150">
+                                 <img class="GAL" src="photos/franck.jpg" alt="" width="150">
+                                 <img class="GAL"src="photos/IMG_20220509_123105.jpg" alt="" width="150">
+                                 <img class="GAL"src="photos/IMG_20220509_123115.jpg" alt="" width="150">
+                                 <img class="GAL"src="photos/IMG_20220513_113510.jpg" alt="" width="150">
+                                 <img class="GAL"src="photos/IMG_20220513_113514.jpg" alt="" width="150">
+                                 <img class="GAL"src="photos/jeacque.jpg" alt="" width="150">
+                                 <img class="GAL"src="photos/confirm.jpg" alt="" width="150">
+                                 <img class="GAL"src="photos/IMG-20220522-WA0074.jpg" alt="" width="150"> -->
+                                 <img class="GAL"src="photos/IMG-20220522-WA0076.jpg" alt="" width="150">
+                                 <img class="GAL"src="images/artificial-intelligence-3382507_640.jpg" alt="" width="150">
+                                 <img class="GAL"src="images/cloud-computing-2001090__480.webp" alt="" width="150">
+                                 <img class="GAL"src="images/computer-2930704__480.jpg" alt="" width="150">
+                                 <img class="GAL"src="images/dark-web-5030163__480.webp" alt="" width="150">
+                                 <img class="GAL"src="images/matrix-1735640__480.jpg" alt="" width="150">
+                                 <img class="GAL"src="images/processor-2217771__480.jpg" alt="" width="150">
+                                 <img class="GAL"src="images/computer-2930704__480.jpg" alt="" width="150">
+                                 <img class="GAL"src="images/woman-2099465__480.jpg" alt="" width="150">
+                              
+                             </section>
+                         </div> 
+                             <section id="Contact">
+                                 <div class="container">
+                                     <div class="title">
+                                         <h6>avez vous une question?</h6>
+                                         <h3>Contactez nous</h3>
+                                     
+                                      </div>
+                                      <form action="#" method="post">
+                                         <input type="text" name="name" placeholder="Entrer votre nom..." required="">
+                                         <input type="text" name="email" placeholder="Entrer votre email..." required="">
+                                         <input type="text" name="subject" placeholder="Entrer le sujet..." required="">
+                                         <input type="text" name="number" placeholder="Entrer votre numero téléphone..." required="">
+                                         <textarea name="message" placeholder="Entrez votre message"></textarea>
+                                         <button type="submit">Envoyez</button>
+                                      </form>
+                                 </div>
+                                 
+                             </section>      
+                         
+                    </div>
+                   
+                    <footer class="footer">
+                        <div  style="display: flex;" class="footer-contenaire">
+                            <div class="ligne">
+                                <div class="footer-col">
+                                    <h4>société</h4>
+                                    <ul>
+                                        <li><a href="#">à propos de nous</a></li>
+                                        <li><a href="#">nos sevices</a></li>
+                                        <li><a href="#">sercret politique</a></li>
+                                        <li><a href="#">notre programe</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-col">
+                                <h4>trouver de l'aide</h4>
+                                <ul>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">chargement</a></li>
+                                    <li><a href="#">résultats</a></li>
+                                    <li><a href="#">autres statuts</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="footer-col">
+                                <h4>Vente en ligne</h4>
+                                <ul>
+                                    <li><a href="#">regarder</a></li>
+                                    <li><a href="#">bag</a></li>
+                                    <li><a href="#">choisire</a></li>
+                                    <li><a href="#">rob</a></li>
+                                </ul>
+                            </div> 
+                            <div class="footer-col">
+                                <h4>follow us</h4>
+                                <div class="social-links">
+                                    <a href="#"></a><i class="icon-facebook-f"></i>
+                                    <a href="#"><i class="icon-twitter"></i></a>
+                                    <a href="#"><i class="icon-phone"></i></a>
+                                    <a href="#"><i class="icon-mail-forward"></i></a>
+                                </div>
+
+                            </div>  
+                        </div>
+                    </footer>  
+        </body>
+</html>
