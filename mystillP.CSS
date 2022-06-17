@@ -16,14 +16,15 @@ h1{
 
 
 nav{
-    height: 80px;
+    /* height: 150px; */
     width: 100%;
     background:teal;
     position: fixed;
     top: 0cm;
+    z-index: 99;
 
 }
-label.logo{
+nav .logo{
     font-size: 35px;
     font-weight: bold;
     color: white;
@@ -32,7 +33,10 @@ label.logo{
 }
 div nav ul{
     float: right;
-    margin-right: 30px;
+    margin-right: 50px;
+    top: 5px;
+
+    
     
   
 }
@@ -59,9 +63,12 @@ nav #icon{
     font-size: 30px;
     line-height: 80px;
     float: right;
-    margin-right: 40px;
     cursor: pointer;
-    display: none;
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    top: 25px;
+    margin-right: 40px; 
 }
 /* images */
 img{
@@ -75,40 +82,34 @@ img:hover{
 /*banner */
 .banner{
     margin-top: 80px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.774)), url('images/computer-1185569__480.webp');
 }
 .title-banner{
     position: relative;
-    top: 15rem;
+    top: 200px;
     text-align: center;
     color: white;
     font-size: 60px;
     
 }
-
 .arrieur-plas{
     position: absolute;
     width: 100%;
     height: 80vh;
 }
-.sombre{
-    background-color: black;
-    width: 100%;
-    height: 50vh;
-    opacity: .6; 
-    position: absolute;
-    top: 80px;
-    padding-bottom: 85vh;
-}
-
 /* section a propos */
 #first-section{
     background-color: rgba(102, 166, 245, 0.164);
-    margin-top: 830px; 
+    margin-top: 30px; 
     padding: 5px;
     padding-bottom: 10px;  
-    margin: 10spx 0;
+    margin: 10px;
 }
-div section#about{
+div section #about{
 
     color: rgb(10, 10, 10);
     text-align: justify;
@@ -138,10 +139,10 @@ div section#about{
     margin-top: 830px; 
     padding: 5px;
     padding-bottom: 10px; 
-    margin: 10px 0;
+    margin: 10px;
 }
 
-div section#parcours{
+div section #parcours{
     color: rgb(7, 7, 7);
     text-align: justify;
     padding: 10px;
@@ -152,18 +153,19 @@ div section#parcours{
 /* section competances */
 #therd-section{
     background-color: rgba(102, 166, 245, 0.164);
-    margin-top: 830px; 
+    /* margin-top: 830px;  */
     padding: 5px;
     padding-bottom: 10px;  
-    margin: 10px 0;
+    margin: 15px;
 }
 
-div section#Competances{
+#therd-section #Competances{
 
     color: rgb(10, 10, 10);
     text-align: justify;
     padding: 10px;
-    border-style: groove;   
+    margin: 20px;
+    /* border-style: groove;    */
 }
 ol li.ma-liste{
     margin-left: 20px;
@@ -176,11 +178,11 @@ ol li.ma-liste{
     padding: 5px;
     padding-bottom: 10px;  
     margin: 10px 0;
-    width: 70%;
-    margin-left: 200px;
+    /* width: 70%; */
+    /* margin-left: 200px; */
    
 }
-div section#Galerie{
+div section #Galerie{
     color: rgb(10, 10, 10);
     text-align: justify;
     padding: 10px;
@@ -188,7 +190,9 @@ div section#Galerie{
     
 }
 .GAL{
-    object-fit:contain;
+    object-fit:cover;
+    background-size: cover;
+    height: 200px;
     border-radius: 10pt;
 }
 p{
@@ -332,22 +336,12 @@ ul{
 }
 .footer-col .social-links a {
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     background-color: rgba(255,255,255,0.2);
-    margin:0 10px 10px 0;
-    line-height: 40px;
     border-radius: 50%;
     color:#ffffff;
-    transition: all 0.5s ease;
-}
-.footer-col .social-links a :hover{
-    color: #24262b;
-    background-color: #ffffff;
-}
-.footer-col ul li a:hover{
-    color: #ffffff;
-    padding-left: 8px;
+   
 }
 
 @media (max-width:1048px) {
@@ -362,13 +356,13 @@ ul{
     }
 
     nav ul{
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
     nav a{
         font-size: 17px;
     }
 }
-@media (max-width:909px){
+@media (max-width:720px){
     *{
         padding: 0;
         margin: 0;
@@ -380,9 +374,11 @@ ul{
         color: black;
     } 
     nav{
-        height: 150px;
+        height: 100px;
         width: 100%;
         background:teal;
+        /* z-index: 99; */
+       
     
     }
     nav #icon{
@@ -390,19 +386,32 @@ ul{
     }
     nav ul{
         position: fixed;
-        width: 100%;
+        width: 80%; 
         background:teal;
         top: 0;
         left: 0;
         text-align: center;
         transition: all .3s;
+        /* display: none; */
+        top: 20px;
+    }
+    .bx-menu:active{
+        
+    }
+    nav .logo{
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        padding: 0 100px;
+        line-height: 80px; 
+        /* display: none; */
     }
     nav li{
         display:inline-block;
         margin: 10spx 0;
         line-height: 25px;
     }
-    a.active,a:hover{
+    a .active, a:hover{
     transition: .3s;
     background-color: rgb(82, 169, 170);
     }
@@ -428,36 +437,24 @@ ul{
         width: 80%;
         margin: 0 auto;
     }
-    .arrieur-plas{
-        position: absolute;
-        width: 100%;
-        height: 80vh;
-    }
-    .sombre{
-    background-color: black;
-    width: 100%;
-    height: 50vh;
-    opacity: .6; 
-    position: absolute;
-    top: 150px;
-    padding-bottom: 80vh;   
-    }
+    
     .title-banner{
         position: relative;
         top: 20rem;
         text-align: center;
         color: white;
         font-size: 25px;
+
     }
     /* first section */
-    #first-section div#about{
+    #first-section #about{
         background-color: rgba(102, 166, 245, 0.164);
         height: 400px;
         padding: 5px;
         padding-bottom: 20px;  
         margin: 10px 0;
     }
-    div section#about{
+    section #about{
         color: rgb(10, 10, 10);
         text-align: justify;
         padding: 10px;
@@ -490,7 +487,7 @@ ul{
         padding-bottom: 10px;  
         margin: 10px 0;
     }
-    div section#parcours{
+    div section #parcours{
         color: rgb(7, 7, 7);
         text-align: justify;
         padding: 10px;
@@ -505,13 +502,13 @@ ul{
         padding-bottom: 10px;  
         margin: 10px 0;
     }
-    div section#Competances{
+    div section #Competances{
         color: rgb(10, 10, 10);
         text-align: justify;
         padding: 10px;
         border-style: groove;   
     }
-    ol li.ma-liste{
+    ol li .ma-liste{
         margin-left: 20px;
         width: 90%;
     }
@@ -526,7 +523,7 @@ ul{
         width: 85%;
         margin-left: 35px;
     }   
-    div section#Galerie{
+    div section #Galerie{
         color: rgb(10, 10, 10);
         text-align: justify;
         padding: 10px;
@@ -534,21 +531,84 @@ ul{
     .images{
         text-align: center;
         font-size: 20px;
-    }
-   
-} 
+ 
+    }  
+}
 @media screen and (max-width:500px)  {
-    section#contact .container form {
+    h1{
+        font-size: 30px;
+    }
+    nav{
+        height: 100px;
+        width: 100%;
+        background:teal;
+        position: fixed;
+        top: 0cm;
+        /* z-index: 99; */
+    
+    }
+    nav .logo{
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        padding: 0 100px;
+        line-height: 80px;
+    }
+    div nav ul{
+        float: right; 
+        margin-right: 50px;
+        
+      
+    }
+    div nav li{
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 80px; 
+      
+    }
+    nav a{
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 7px 10px;
+        border-radius: 3px;
+    }
+    a:active,a:hover{
+        transition: .3s;
+        background-color: rgb(82, 169, 170);
+    }
+    nav #icon{
+        color: white;
+        font-size: 30px;
+        line-height: 80px;
+        float: right;
+        cursor: pointer;
+        /* display: none;  */
+        position: absolute;
+        right: 0;
+        top: 25px;
+        margin-right: 40px; 
+    } 
+    nav .logo{
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        padding: 0 100px;
+        line-height: 80px;
+        /* display: none; */
+    } 
+    section #contact .container form {
         flex-direction: column;
         width: 95%;
     }
-    section#contact .container form input{
+    section #contact .container form input{
         width: 100%;   
     }
-    section#contact .container .title h6{
+    section #contact .container .title h6{
         font-size: 1em;
     }
-    section#contact .container .title h3{
+    section #contact .container .title h3{
         font-size: 2em;
     }
     p{
@@ -562,11 +622,11 @@ ul{
         text-align: left;
         font-size: 25px;
     }
-    
+
 }
 @media (max-width:767px){
     .footer-col{
-        width: 50%;
+         width: 50%;
         margin-bottom: 30px;
     }
     .footer{
@@ -575,9 +635,100 @@ ul{
         height: 200px;
     }
     
+     nav ul{
+        position: fixed;
+        width: 100%; 
+        background:teal;
+        top: 0;
+        left: 0;
+        text-align: center;
+        transition: all .3s;
+        /*display: none;
+    }
+    .bx-menu:active{
+        
+    }
+    nav .logo{
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        padding: 0 100px;
+        line-height: 80px; 
+        /* display: none; */
+    }
 }
 @media (max-width:574px){
     .footer-col{
         width: 100%;
     }
-}
+        
+    h1{
+        font-size: 30px;
+    } 
+    nav{
+        /* height: 100px; */
+        width: 100%;
+        background:rgb(90, 126, 126);
+        position: fixed;
+        top: 0cm;
+        /* z-index: 99; */
+    
+    } 
+    
+    /* nav .logo{
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        padding: 0 100px;
+        line-height: 80px;
+    } */
+    div nav ul{
+        float: right;
+        margin-right: 60px;
+
+      
+    }
+     */
+    /* div nav li{
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 80px; 
+      
+    } */
+/*     
+    nav a{
+        color: white;
+        font-size: 18px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 7px 10px;
+        border-radius: 3px;
+    } */
+    /* a:active,a:hover{
+        transition: .3s;
+        background-color: rgb(82, 169, 170);
+    }
+    nav #icon{
+        color: white;
+        font-size: 30px;
+        line-height: 80px;
+        float: right;
+        cursor: pointer; */
+        /* display: none;
+         position: absolute;
+        right: 0;
+        top: 25px;
+        margin-right: 40px; 
+    }
+    .title-banner{
+        position: relative;
+        top: 40rem;
+        text-align: center;
+        color: rgb(131, 32, 32);
+        font-size: 60px;
+        
+    }
+    h1{
+        font-size: 30px;
+    }*/
+ }
