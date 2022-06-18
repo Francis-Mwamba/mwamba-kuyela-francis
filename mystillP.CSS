@@ -18,7 +18,7 @@ h1{
 nav{
     /* height: 150px; */
     width: 100%;
-    background:teal;
+    background:rgb(86, 170, 170);
     position: fixed;
     top: 0cm;
     z-index: 99;
@@ -70,7 +70,7 @@ nav #icon{
     top: 25px;
     margin-right: 40px; 
 }
-.bx-menu{
+#icon{
     display: none;
 }
 /* images */
@@ -93,10 +93,13 @@ img:hover{
 }
 .title-banner{
     position: relative;
-    top: 200px;
+    top: 450px;
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
     
 }
 .arrieur-plas{
@@ -584,11 +587,10 @@ ul{
     nav #icon{
         color: white;
         font-size: 30px;
-        line-height: 80px;
+        line-height: 40px;
         float: right;
         cursor: pointer;
-        /* display: none;  */
-        position: absolute;
+        position: relative;
         right: 0;
         top: 25px;
         margin-right: 40px; 
@@ -646,7 +648,18 @@ ul{
         left: 0;
         text-align: center;
         transition: all .3s;
-        /*display: none;
+        display: none;
+    }
+    nav #icon{
+        color: white;
+        font-size: 30px;
+        line-height: 40px;
+        float: right;
+        cursor: pointer;
+        position: relative;
+        right: 0;
+        top: 25px;
+        margin-right: 40px; 
     }
     .bx-menu:active{
         
